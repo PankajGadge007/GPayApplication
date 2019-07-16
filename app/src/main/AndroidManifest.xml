@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".CheckoutActivity"/>
+
+        <!-- This element is required in order to use the PaymentsClient -->
+        <meta-data
+                android:name="com.google.android.gms.wallet.api.enabled"
+                android:value="true" />
+
     </application>
 
 </manifest>
